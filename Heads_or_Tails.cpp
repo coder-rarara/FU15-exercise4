@@ -21,4 +21,10 @@ int main() {
     }
   }
   std::cout << "Heads: " << head_count << ", Tails: " << tail_count << std::endl;
+  if(head_count>tail_count) {
+    std::cout << "You won" << std::endl;
+  }
+  else {
+    std::cout << "You lost" << std::endl;
+  }
 }
