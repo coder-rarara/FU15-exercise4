@@ -27,9 +27,9 @@ int main() {
   }
   std::cout << "Heads: " << head_count << ", Tails: " << tail_count << std::endl;
   if(head_count>tail_count) {
-    std::cout << "You won" << std::endl;
+    std::cout << user_name << " won" << std::endl;
   }
   else {
-    std::cout << "You lost" << std::endl;
+    std::cout << user_name << " lost" << std::endl;
   }
 }
