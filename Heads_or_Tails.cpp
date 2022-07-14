@@ -4,6 +4,11 @@
 constexpr int ROUNDS=5;
 
 int main() {
+  std::string user_name;
+  std::cout << "Who are you?" << std::endl;
+  std::cout << "> ";
+  std::cin >> user_name;
+  std::cout << "Hello, " << user_name << '!' << std::endl;
   std::random_device coin;
   std::cout << "Tossing a coin..." << std::endl;
   int head_count=0, tail_count=0;
